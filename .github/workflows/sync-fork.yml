@@ -9,6 +9,6 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
-      - run: gh repo sync PaWill68/opera-proxy -b main --source Alexey71/opera-proxy
+      - run: gh repo sync PaWill68/opera-proxy -b master --source Alexey71/opera-proxy
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
